@@ -1,6 +1,7 @@
 import React from 'react'
 import Hero from './components/Hero'
 import Analyzer from './components/Analyzer'
+import ChartAI from './components/ChartAI'
 import Footer from './components/Footer'
 
 function App() {
@@ -11,6 +12,9 @@ function App() {
 
       {/* Analyzer Section */}
       <Analyzer />
+
+      {/* Chart AI Section */}
+      <ChartAI />
 
       {/* Promo/CTA */}
       <section className="relative bg-black py-16">
